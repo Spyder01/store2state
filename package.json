@@ -1,6 +1,6 @@
 {
   "name": "store2state",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This library provides a robust and flexible state management solution for JavaScript and TypeScript applications, with a focus on React integration. It includes a powerful Store class, custom hooks for React, and an AsyncAction utility for handling asynchronous operations.",
   "main": "dist/index.js",
   "scripts": {
