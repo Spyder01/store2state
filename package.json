@@ -4,7 +4,7 @@
   "description": "This library provides a robust and flexible state management solution for JavaScript and TypeScript applications, with a focus on React integration. It includes a powerful Store class, custom hooks for React, and an AsyncAction utility for handling asynchronous operations.",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "node build.js",
     "test": "jest"
   },
   "repository": {
