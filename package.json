@@ -1,0 +1,33 @@
+{
+  "name": "store2state",
+  "version": "0.0.1",
+  "description": "This library provides a robust and flexible state management solution for JavaScript and TypeScript applications, with a focus on React integration. It includes a powerful Store class, custom hooks for React, and an AsyncAction utility for handling asynchronous operations.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Spyder01/store2state"
+  },
+  "keywords": ["state-management", "state", "store", "javascript", "typescript", "react"],
+  "author": "Suhan",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "react-dom": "^18.3.1",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "arachnea": "^0.0.9",
+    "react": "^18.3.1"
+  }
+}
