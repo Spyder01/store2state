@@ -178,7 +178,3 @@ hacktoberfest, typescript, react, state-management, open-source
 - Improve README examples  
 
 ---
-
-Would you like me to create ready-to-copy **GitHub issue templates** for `store2state` (like `.github/ISSUE_TEMPLATE/feature_request.md`, `bug_report.md`, `good_first_issue.md`)?  
-That would make it contributor-ready instantly.
-
