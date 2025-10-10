@@ -156,25 +156,3 @@ Before submitting:
 This project is licensed under the [MIT License](./LICENSE).
 
 ---
-
-### ✅ GitHub Setup Checklist
-
-1. Go to your repo → **Settings → General → Topics**  
-   Add:  
-```
-
-hacktoberfest, typescript, react, state-management, open-source
-
-```
-2. Add issue labels:
-- `hacktoberfest`
-- `hacktoberfest-accepted`
-- `good first issue`
-- `help wanted`
-3. Create **3–4 issues** like:
-- Add `createVueStore` adapter  
-- Improve TypeScript types  
-- Add tests for AsyncAction  
-- Improve README examples  
-
----
