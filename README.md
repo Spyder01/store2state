@@ -1,5 +1,7 @@
 # ⚡ store2state
 
+[![Open Project Lab Submission](https://img.shields.io/badge/Open%20Project%20Lab-Submission-blue?logo=github)](https://github.com/spyder01/open-project-lab)
+
 **store2state** is a robust and flexible state management library for JavaScript and TypeScript, designed with a focus on **React integration** and easy extensibility to other frameworks.  
 It provides a powerful `Store` class, `AsyncAction` utility for async flows, and custom React hooks for reactive state access.
 
@@ -156,3 +158,4 @@ Before submitting:
 This project is licensed under the [MIT License](./LICENSE).
 
 ---
+
