@@ -123,6 +123,41 @@ const fetchUserAction = createAsyncAction(store, async (store, setStatus, userId
 });
 ```
 
+### Management of form state
+
+```typescript
+import { createStore, useStore } from "store2state";
+
+const formStore = createStore({name: "",email: "" });
+
+export function ContactForm() {
+  const { get, set } = useStore(formStore);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    set((state) => ({ ...state, [name]: value }));
+  };
+  return (
+    <form>
+      <input
+        name="name"
+        value={get().name}
+        onChange={handleChange}
+        placeholder="Your name"
+      />
+      <input
+        name="email"
+        value={get().email}
+        onChange={handleChange}
+        placeholder="Your email"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+```
+
 ---
 
 ## 📘 API Reference
