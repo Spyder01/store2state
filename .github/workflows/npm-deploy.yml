@@ -51,6 +51,7 @@ jobs:
           cp -r dist package.json README.md LICENSE publish/
 
       - name: Publish to npm
-        run: cd publish && npm publish
+        run: cd publish && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+
